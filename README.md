@@ -12,7 +12,7 @@ Este projeto se propõe:
     - Disponibilzar este modelo via API através da biblioteca flask
     - Hospedar esta API em um webserver unix leve através da biblioteca gunicorn
     - Separar todo o projeto em um ambiente virtual conda e disponibilizar arquivo requirements.txt
-    - Encapsular toda a aplicação em um contâiner via Docker (TO_DO)
+    - Encapsular toda a aplicação em um contâiner via Docker
 
 ## Referências (TO_DO)
 Approaching (almost) any machine learning problem. THAKUR, Abishek.
