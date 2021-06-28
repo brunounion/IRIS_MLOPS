@@ -7,7 +7,7 @@ FROM python:3.8-slim-buster
 RUN REPO="https://github.com/brunounion/IRIS_MLOPS.git" \
     && apt-get update \
     && apt-get install git -y \ 
-    && git clone "https://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:x-oauth-basic@github.com/brunounion/IRIS_MLOPS.git"
+    && git clone "KEY_OAUTH@github.com/brunounion/IRIS_MLOPS.git"
 
 RUN cd IRIS_MLOPS \
     && pip install -r requirements.txt
